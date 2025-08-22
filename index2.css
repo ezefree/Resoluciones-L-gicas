@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(253, 205, 102);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagen-general {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagen-general img {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.lista-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 20px;
+}
+
+.producto {
+    background: white;
+    padding: 16px;
+    width: 240px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.producto h2 {
+    margin-bottom: 8px;
+}
+
+.precio {
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+}
+
+.volver {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.volver a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
